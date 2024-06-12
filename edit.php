@@ -18,10 +18,6 @@ if (isset($_POST['proses'])) {
     $query = mysqli_query($koneksi, $sql);
 
     if ($query) {
-        // echo "Data mahasiswa berhasil diupdate.";
-        // header("Location: index.php");
-        // exit();
-
         echo "<script>
         alert('SUKSES: Data mahasiswa berhasil diperbarui');
         window.location.assign('index.php');
